@@ -31,7 +31,7 @@ img {
   max-width: 100%;
 }
 .purple {
-  color: #7447ae;
+  color: #8068a0;
 }
 .pink {
   color: #da17c9;
@@ -247,7 +247,7 @@ h1.heading.pink:after {
   background-color: #ffbe61;
 }
 .testimonial-box.purple {
-  background-color: #7b32d5;
+  background-color: #703daf;
 }
 .testimonial-box.blue {
   background-color: #37a7ff;
@@ -436,9 +436,9 @@ ul.main-nav li {
   display: inline-block;
 }
 ul.main-nav li a {
-  color: #920c0c;
+  color: #330707;
   font-family: 'Montserrat', sans-serif;
-  font-size: 25px;
+  font-size: 17px;
   text-transform: uppercase;
   padding: 5px 15px;
 }
