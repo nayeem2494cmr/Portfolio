@@ -1,6 +1,3 @@
-/*!
- * Author: Akash Bhadange
- */
 
  body {
   font-family: 'Open Sans', sans-serif;
@@ -37,10 +34,13 @@ img {
   color: #7447ae;
 }
 .pink {
-  color: #ff2a75;
+  color: #da17c9;
 }
 .blue {
   color: #37a7ff;
+}
+.black{
+  color: #000000;
 }
 
 /* Hero Section */
@@ -145,7 +145,7 @@ h1.heading.purple:after {
   background-color: #7447ae;
 }
 h1.heading.pink:after {
-  background-color: #ff2a75;
+  background-color: #3d1b27;
 }
 
 
@@ -160,9 +160,9 @@ h1.heading.pink:after {
 }
 
 .client-box {
-  background-color: #fff;
+  background-color: #f5f0f0;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.03);
-  padding: 3.5em 2em;
+  padding: 3em 1em;
   border-radius: 5px;
   border: 1px solid #eee;
   text-align: center;
@@ -178,11 +178,11 @@ h1.heading.pink:after {
   margin-bottom: 2em;
 }
 .client-box p.tag {
-  color: #7447ae;
+  color: #000000;
   font-family: 'Montserrat', sans-serif;
-  margin-bottom: 1em;
+  margin-bottom: 0.5em;
 }
-.client-box a {
+.client-box a { 
   color: #333;
   font-style: italic;
   opacity: 0.5;
@@ -221,7 +221,7 @@ h1.heading.pink:after {
 /* Testimonial */
 .testimonial-box {
   padding: 2em;
-  color: #fff;
+  color: #161616;
   border-radius: 5px;
   font-weight: 300;
   min-height: 400px;
@@ -229,13 +229,14 @@ h1.heading.pink:after {
 .testimonial-box h1 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
+  font-size: 1.75em;
   margin-top: 0;
   margin-bottom: 1em;
 }
 .testimonial-box p.name {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
-  font-size: 1.2em;
+  font-size: 1.5em;
   margin-bottom: 0;
 }
 .testimonial-box p.designation {
@@ -252,7 +253,7 @@ h1.heading.pink:after {
   background-color: #37a7ff;
 }
 .testimonial-box.pink {
-  background-color: #ff2a75;
+  background-color: #be4d74;
 }
 
 
@@ -349,7 +350,7 @@ h1.heading.pink:after {
 
 /* Main navigation */
 nav {
-  height: 40px;
+  height: 60px;
   width: 100%;
   position: absolute;
   right: 0;
@@ -366,7 +367,7 @@ nav {
   display: block;
   height: 4px;
   width: 40px;
-  background-color: #fff;
+  background-color: #0a0a0a;
   transition: .25s ease-in-out;
 }
 #menu-toggle .hamburger span.line {
@@ -435,9 +436,9 @@ ul.main-nav li {
   display: inline-block;
 }
 ul.main-nav li a {
-  color: #fff;
+  color: #920c0c;
   font-family: 'Montserrat', sans-serif;
-  font-size: 14px;
+  font-size: 25px;
   text-transform: uppercase;
   padding: 5px 15px;
 }
